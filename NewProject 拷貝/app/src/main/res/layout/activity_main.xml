@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.gjen.newproject.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Switch
+            android:text="生活作息Notification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="true"
+            android:id="@+id/switch1"
+            android:textOn="Notification On"
+            android:textOff="Notification Off" />
+
+        <Switch
+            android:text="天氣Notification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="true"
+            android:textOn="Notification On"
+            android:textOff="Notification Off"
+            android:id="@+id/switch2" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="天氣"
+            android:textSize="20dp"
+            android:onClick="onMainWeather"
+            android:id="@+id/button7" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="生活作息"
+            android:textSize="20dp"
+            android:onClick="onMainLifeStyle"
+            android:id="@+id/button8" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="行事曆"
+            android:textSize="20dp"
+            android:onClick="onMainCal"
+            android:id="@+id/button9" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="記帳"
+            android:textSize="20dp"
+            android:onClick="onMainMoney"
+            android:id="@+id/button10" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="設定"
+            android:textSize="20dp"
+            android:onClick="onMainSetting"
+            android:id="@+id/button11" />
+    </LinearLayout>
+</LinearLayout>
