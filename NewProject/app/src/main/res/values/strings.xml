@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">生活小幫手</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_maps_cal">Map</string>
+</resources>
