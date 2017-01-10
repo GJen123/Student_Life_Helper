@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ProjectModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="P1_Group">
+    <Key>
+      <PropertyRef Name="G_id" />
+    </Key>
+    <Property Name="G_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Gname" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="U_id" Type="int" Nullable="false" />
+    <Property Name="Username" Type="varchar" MaxLength="30" />
+    <Property Name="Email" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Status" Type="varchar" MaxLength="30" Nullable="false" />
+  </EntityType>
+  <EntityType Name="P1_Overspend">
+    <Key>
+      <PropertyRef Name="O_id" />
+    </Key>
+    <Property Name="O_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="User_id" Type="int" Nullable="false" />
+    <Property Name="Month" Type="int" Nullable="false" />
+    <Property Name="Balance" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="P1_Record">
+    <Key>
+      <PropertyRef Name="r_id" />
+    </Key>
+    <Property Name="r_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="hour" Type="int" Nullable="false" />
+    <Property Name="minute" Type="int" Nullable="false" />
+    <Property Name="time" Type="smalldatetime" Nullable="false" />
+    <Property Name="event" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="location" Type="varchar" MaxLength="30" />
+    <Property Name="latitude" Type="float" Nullable="false" />
+    <Property Name="longitude" Type="float" Nullable="false" />
+    <Property Name="weekly" Type="int" Nullable="false" />
+    <Property Name="schedule" Type="bit" Nullable="false" />
+    <Property Name="user_id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="P1_Record_Correct">
+    <Key>
+      <PropertyRef Name="rc_id" />
+    </Key>
+    <Property Name="rc_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="event" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="correct" Type="bit" Nullable="false" />
+    <Property Name="date" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="P1_User_Account">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="email" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="password" Type="varchar" MaxLength="10" Nullable="false" />
+  </EntityType>
+  <EntityType Name="P1_User_Detail">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" />
+    <Property Name="Lname" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="Fname" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="sex" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="tel" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="address" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Ssn" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="bdate" Type="date" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_P1_Overspend_P1_Overspend">
+    <End Role="P1_User_Account" Type="Self.P1_User_Account" Multiplicity="1" />
+    <End Role="P1_Overspend" Type="Self.P1_Overspend" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="P1_User_Account">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="P1_Overspend">
+        <PropertyRef Name="User_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_P2_Group_P2_User_Account">
+    <End Role="P1_User_Account" Type="Self.P1_User_Account" Multiplicity="1" />
+    <End Role="P1_Group" Type="Self.P1_Group" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="P1_User_Account">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="P1_Group">
+        <PropertyRef Name="U_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_P2_Record_P2_User_Account">
+    <End Role="P1_User_Account" Type="Self.P1_User_Account" Multiplicity="1" />
+    <End Role="P1_Record" Type="Self.P1_Record" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="P1_User_Account">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="P1_Record">
+        <PropertyRef Name="user_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_P2_User_Detail_P2_User_Account">
+    <End Role="P1_User_Account" Type="Self.P1_User_Account" Multiplicity="1" />
+    <End Role="P1_User_Detail" Type="Self.P1_User_Detail" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="P1_User_Account">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="P1_User_Detail">
+        <PropertyRef Name="id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ProjectModelStoreContainer">
+    <EntitySet Name="P1_Group" EntityType="Self.P1_Group" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="P1_Overspend" EntityType="Self.P1_Overspend" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="P1_Record" EntityType="Self.P1_Record" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="P1_Record_Correct" EntityType="Self.P1_Record_Correct" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="P1_User_Account" EntityType="Self.P1_User_Account" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="P1_User_Detail" EntityType="Self.P1_User_Detail" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_P1_Overspend_P1_Overspend" Association="Self.FK_P1_Overspend_P1_Overspend">
+      <End Role="P1_User_Account" EntitySet="P1_User_Account" />
+      <End Role="P1_Overspend" EntitySet="P1_Overspend" />
+    </AssociationSet>
+    <AssociationSet Name="FK_P2_Group_P2_User_Account" Association="Self.FK_P2_Group_P2_User_Account">
+      <End Role="P1_User_Account" EntitySet="P1_User_Account" />
+      <End Role="P1_Group" EntitySet="P1_Group" />
+    </AssociationSet>
+    <AssociationSet Name="FK_P2_Record_P2_User_Account" Association="Self.FK_P2_Record_P2_User_Account">
+      <End Role="P1_User_Account" EntitySet="P1_User_Account" />
+      <End Role="P1_Record" EntitySet="P1_Record" />
+    </AssociationSet>
+    <AssociationSet Name="FK_P2_User_Detail_P2_User_Account" Association="Self.FK_P2_User_Detail_P2_User_Account">
+      <End Role="P1_User_Account" EntitySet="P1_User_Account" />
+      <End Role="P1_User_Detail" EntitySet="P1_User_Detail" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

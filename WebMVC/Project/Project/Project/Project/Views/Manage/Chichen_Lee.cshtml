@@ -1,0 +1,23 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        @{
+            var myChart = new Chart(width: 1000, height: 800)
+               .AddTitle("財務資料")
+               .AddSeries(chartType: "column",
+                  xValue: new[] { "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec" },
+                  yValues: new[] { "-1300", "1200", "400", "-150", "300", "-100", "500", "200", "-1000", "-1250", "250", "1700" })
+               .Write();
+        }
+    </div>
+</body>
+</html>

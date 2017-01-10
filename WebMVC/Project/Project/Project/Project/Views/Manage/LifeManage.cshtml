@@ -1,0 +1,30 @@
+﻿@model List<Project.Models.CalendarViewModel>
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="container">
+    <table class="table table-hover table-striped">
+        <tr>
+            <th>時間</th>
+            <th>事件</th>
+            <th>地點</th>
+            <th>經度</th>
+            <th>緯度</th>
+        </tr>
+
+        @foreach (var record in Model)
+        {
+            <tr>
+                <td>@record.Time</td>
+                <td>@record.Event</td>
+                <td>@record.Location</td>
+                <td>@record.Latitude</td>
+                <td>@record.Longitude</td>
+                
+            </tr>
+        }
+    </table>
+</div>

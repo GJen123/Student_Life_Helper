@@ -1,0 +1,72 @@
+﻿@model List<Project.Models.RecordViewModel>
+@using System.Drawing;
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+
+    <div>
+        @{
+            Chart myChart = new Chart(width: 600, height: 400).AddTitle("出席狀況圖");
+            myChart.AddLegend("月份");
+            int inTimeCount = 0, lateCount = 0, noArrivalCount = 0;
+            DateTime tempDate, lastDate = Model[0].date;
+            foreach (var row in Model)
+            {
+                tempDate = row.date;
+
+                if (tempDate.Year == lastDate.Year && tempDate.Month == lastDate.Month)
+                {
+                    switch (row.state)
+                    {
+                        case "準時到":
+                            inTimeCount++;
+
+                            break;
+                        case "延後到":
+                            lateCount++;
+
+                            break;
+                        case "無法參加":
+                            noArrivalCount++;
+
+                            break;
+                        default:
+                            break;
+                    }
+
+                }
+                else
+                {
+                    myChart.AddSeries(name:lastDate.Year.ToString()+lastDate.Month.ToString(),chartType: "column", xValue: new[] { "準時", "遲到", "未到" },yValues: new[] { inTimeCount, lateCount, noArrivalCount});
+                    inTimeCount = 0;
+                    lateCount = 0;
+                    noArrivalCount = 0;
+                    switch (row.state)
+                    {
+                        case "準時到":
+                            inTimeCount++;
+                            break;
+                        case "延後到":
+                            lateCount++;
+                            break;
+                        case "無法參加":
+                            noArrivalCount++;
+                            break;
+                        default:
+                            break;
+
+                    }
+
+                }
+                lastDate = tempDate;
+            }
+            myChart.AddSeries(name: Model[Model.Count-1].date.Year.ToString()+ Model[Model.Count - 1].date.Month.ToString(), chartType: "column", xValue: new[] { "準時", "遲到", "未到" },yValues: new[] { inTimeCount, lateCount, noArrivalCount });
+            myChart.Save("~/Content/image/chart.jpg");
+        }
+
+        <img src="~/Content/image/chart.jpg">
+    </div>

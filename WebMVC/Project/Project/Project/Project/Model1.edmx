@@ -1,0 +1,397 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="ProjectModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="P1_Group">
+          <Key>
+            <PropertyRef Name="G_id" />
+          </Key>
+          <Property Name="G_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Gname" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="U_id" Type="int" Nullable="false" />
+          <Property Name="Username" Type="varchar" MaxLength="30" />
+          <Property Name="Email" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Status" Type="varchar" MaxLength="30" Nullable="false" />
+        </EntityType>
+        <EntityType Name="P1_Overspend">
+          <Key>
+            <PropertyRef Name="O_id" />
+          </Key>
+          <Property Name="O_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="User_id" Type="int" Nullable="false" />
+          <Property Name="Month" Type="int" Nullable="false" />
+          <Property Name="Balance" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="P1_Record">
+          <Key>
+            <PropertyRef Name="r_id" />
+          </Key>
+          <Property Name="r_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="hour" Type="int" Nullable="false" />
+          <Property Name="minute" Type="int" Nullable="false" />
+          <Property Name="time" Type="smalldatetime" Nullable="false" />
+          <Property Name="event" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="location" Type="varchar" MaxLength="30" />
+          <Property Name="latitude" Type="float" Nullable="false" />
+          <Property Name="longitude" Type="float" Nullable="false" />
+          <Property Name="weekly" Type="int" Nullable="false" />
+          <Property Name="schedule" Type="bit" Nullable="false" />
+          <Property Name="user_id" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="P1_Record_Correct">
+          <Key>
+            <PropertyRef Name="rc_id" />
+          </Key>
+          <Property Name="rc_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="event" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="correct" Type="bit" Nullable="false" />
+          <Property Name="date" Type="datetime" Nullable="false" />
+        </EntityType>
+        <EntityType Name="P1_User_Account">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="email" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="password" Type="varchar" MaxLength="10" Nullable="false" />
+        </EntityType>
+        <EntityType Name="P1_User_Detail">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" />
+          <Property Name="Lname" Type="varchar" MaxLength="10" Nullable="false" />
+          <Property Name="Fname" Type="varchar" MaxLength="10" Nullable="false" />
+          <Property Name="sex" Type="varchar" MaxLength="10" Nullable="false" />
+          <Property Name="tel" Type="nchar" MaxLength="10" Nullable="false" />
+          <Property Name="address" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Ssn" Type="nchar" MaxLength="10" Nullable="false" />
+          <Property Name="bdate" Type="date" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_P1_Overspend_P1_Overspend">
+          <End Role="P1_User_Account" Type="Self.P1_User_Account" Multiplicity="1" />
+          <End Role="P1_Overspend" Type="Self.P1_Overspend" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="P1_User_Account">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="P1_Overspend">
+              <PropertyRef Name="User_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_P2_Group_P2_User_Account">
+          <End Role="P1_User_Account" Type="Self.P1_User_Account" Multiplicity="1" />
+          <End Role="P1_Group" Type="Self.P1_Group" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="P1_User_Account">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="P1_Group">
+              <PropertyRef Name="U_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_P2_Record_P2_User_Account">
+          <End Role="P1_User_Account" Type="Self.P1_User_Account" Multiplicity="1" />
+          <End Role="P1_Record" Type="Self.P1_Record" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="P1_User_Account">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="P1_Record">
+              <PropertyRef Name="user_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_P2_User_Detail_P2_User_Account">
+          <End Role="P1_User_Account" Type="Self.P1_User_Account" Multiplicity="1" />
+          <End Role="P1_User_Detail" Type="Self.P1_User_Detail" Multiplicity="0..1" />
+          <ReferentialConstraint>
+            <Principal Role="P1_User_Account">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="P1_User_Detail">
+              <PropertyRef Name="id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="ProjectModelStoreContainer">
+          <EntitySet Name="P1_Group" EntityType="Self.P1_Group" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="P1_Overspend" EntityType="Self.P1_Overspend" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="P1_Record" EntityType="Self.P1_Record" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="P1_Record_Correct" EntityType="Self.P1_Record_Correct" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="P1_User_Account" EntityType="Self.P1_User_Account" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="P1_User_Detail" EntityType="Self.P1_User_Detail" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_P1_Overspend_P1_Overspend" Association="Self.FK_P1_Overspend_P1_Overspend">
+            <End Role="P1_User_Account" EntitySet="P1_User_Account" />
+            <End Role="P1_Overspend" EntitySet="P1_Overspend" />
+          </AssociationSet>
+          <AssociationSet Name="FK_P2_Group_P2_User_Account" Association="Self.FK_P2_Group_P2_User_Account">
+            <End Role="P1_User_Account" EntitySet="P1_User_Account" />
+            <End Role="P1_Group" EntitySet="P1_Group" />
+          </AssociationSet>
+          <AssociationSet Name="FK_P2_Record_P2_User_Account" Association="Self.FK_P2_Record_P2_User_Account">
+            <End Role="P1_User_Account" EntitySet="P1_User_Account" />
+            <End Role="P1_Record" EntitySet="P1_Record" />
+          </AssociationSet>
+          <AssociationSet Name="FK_P2_User_Detail_P2_User_Account" Association="Self.FK_P2_User_Detail_P2_User_Account">
+            <End Role="P1_User_Account" EntitySet="P1_User_Account" />
+            <End Role="P1_User_Detail" EntitySet="P1_User_Detail" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="ProjectModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="P1_Group">
+          <Key>
+            <PropertyRef Name="G_id" />
+          </Key>
+          <Property Name="G_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Gname" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="U_id" Type="Int32" Nullable="false" />
+          <Property Name="Username" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Status" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="P1_User_Account" Relationship="Self.FK_P2_Group_P2_User_Account" FromRole="P1_Group" ToRole="P1_User_Account" />
+        </EntityType>
+        <EntityType Name="P1_Record">
+          <Key>
+            <PropertyRef Name="r_id" />
+          </Key>
+          <Property Name="r_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="hour" Type="Int32" Nullable="false" />
+          <Property Name="minute" Type="Int32" Nullable="false" />
+          <Property Name="time" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="event" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="location" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Name="latitude" Type="Double" Nullable="false" />
+          <Property Name="longitude" Type="Double" Nullable="false" />
+          <Property Name="weekly" Type="Int32" Nullable="false" />
+          <Property Name="schedule" Type="Boolean" Nullable="false" />
+          <Property Name="user_id" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="P1_User_Account" Relationship="Self.FK_P2_Record_P2_User_Account" FromRole="P1_Record" ToRole="P1_User_Account" />
+        </EntityType>
+        <EntityType Name="P1_Record_Correct">
+          <Key>
+            <PropertyRef Name="rc_id" />
+          </Key>
+          <Property Name="rc_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="event" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="correct" Type="Boolean" Nullable="false" />
+          <Property Name="date" Type="DateTime" Nullable="false" Precision="3" />
+        </EntityType>
+        <EntityType Name="P1_User_Account">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="password" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="P1_Group" Relationship="Self.FK_P2_Group_P2_User_Account" FromRole="P1_User_Account" ToRole="P1_Group" />
+          <NavigationProperty Name="P1_Record" Relationship="Self.FK_P2_Record_P2_User_Account" FromRole="P1_User_Account" ToRole="P1_Record" />
+          <NavigationProperty Name="P1_User_Detail" Relationship="Self.FK_P2_User_Detail_P2_User_Account" FromRole="P1_User_Account" ToRole="P1_User_Detail" />
+          <NavigationProperty Name="P1_Overspend" Relationship="ProjectModel.FK_P1_Overspend_P1_Overspend" FromRole="P1_User_Account" ToRole="P1_Overspend" />
+        </EntityType>
+        <EntityType Name="P1_User_Detail">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" />
+          <Property Name="Lname" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Fname" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="sex" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="tel" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="address" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Ssn" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="bdate" Type="DateTime" Nullable="false" Precision="0" />
+          <NavigationProperty Name="P1_User_Account" Relationship="Self.FK_P2_User_Detail_P2_User_Account" FromRole="P1_User_Detail" ToRole="P1_User_Account" />
+        </EntityType>
+        <Association Name="FK_P2_Group_P2_User_Account">
+          <End Role="P1_User_Account" Type="Self.P1_User_Account" Multiplicity="1" />
+          <End Role="P1_Group" Type="Self.P1_Group" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="P1_User_Account">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="P1_Group">
+              <PropertyRef Name="U_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_P2_Record_P2_User_Account">
+          <End Role="P1_User_Account" Type="Self.P1_User_Account" Multiplicity="1" />
+          <End Role="P1_Record" Type="Self.P1_Record" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="P1_User_Account">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="P1_Record">
+              <PropertyRef Name="user_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_P2_User_Detail_P2_User_Account">
+          <End Role="P1_User_Account" Type="Self.P1_User_Account" Multiplicity="1" />
+          <End Role="P1_User_Detail" Type="Self.P1_User_Detail" Multiplicity="0..1" />
+          <ReferentialConstraint>
+            <Principal Role="P1_User_Account">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="P1_User_Detail">
+              <PropertyRef Name="id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="ProjectEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="P1_Group" EntityType="Self.P1_Group" />
+          <EntitySet Name="P1_Record" EntityType="Self.P1_Record" />
+          <EntitySet Name="P1_Record_Correct" EntityType="Self.P1_Record_Correct" />
+          <EntitySet Name="P1_User_Account" EntityType="Self.P1_User_Account" />
+          <EntitySet Name="P1_User_Detail" EntityType="Self.P1_User_Detail" />
+          <AssociationSet Name="FK_P2_Group_P2_User_Account" Association="Self.FK_P2_Group_P2_User_Account">
+            <End Role="P1_User_Account" EntitySet="P1_User_Account" />
+            <End Role="P1_Group" EntitySet="P1_Group" />
+          </AssociationSet>
+          <AssociationSet Name="FK_P2_Record_P2_User_Account" Association="Self.FK_P2_Record_P2_User_Account">
+            <End Role="P1_User_Account" EntitySet="P1_User_Account" />
+            <End Role="P1_Record" EntitySet="P1_Record" />
+          </AssociationSet>
+          <AssociationSet Name="FK_P2_User_Detail_P2_User_Account" Association="Self.FK_P2_User_Detail_P2_User_Account">
+            <End Role="P1_User_Account" EntitySet="P1_User_Account" />
+            <End Role="P1_User_Detail" EntitySet="P1_User_Detail" />
+          </AssociationSet>
+          <EntitySet Name="P1_Overspend" EntityType="ProjectModel.P1_Overspend" />
+          <AssociationSet Name="FK_P1_Overspend_P1_Overspend" Association="ProjectModel.FK_P1_Overspend_P1_Overspend">
+            <End Role="P1_User_Account" EntitySet="P1_User_Account" />
+            <End Role="P1_Overspend" EntitySet="P1_Overspend" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="P1_Overspend">
+          <Key>
+            <PropertyRef Name="O_id" />
+          </Key>
+          <Property Name="O_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="User_id" Type="Int32" Nullable="false" />
+          <Property Name="Month" Type="Int32" Nullable="false" />
+          <Property Name="Balance" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="P1_User_Account" Relationship="ProjectModel.FK_P1_Overspend_P1_Overspend" FromRole="P1_Overspend" ToRole="P1_User_Account" />
+        </EntityType>
+        <Association Name="FK_P1_Overspend_P1_Overspend">
+          <End Type="ProjectModel.P1_User_Account" Role="P1_User_Account" Multiplicity="1" />
+          <End Type="ProjectModel.P1_Overspend" Role="P1_Overspend" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="P1_User_Account">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="P1_Overspend">
+              <PropertyRef Name="User_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="ProjectModelStoreContainer" CdmEntityContainer="ProjectEntities">
+          <EntitySetMapping Name="P1_Group">
+            <EntityTypeMapping TypeName="ProjectModel.P1_Group">
+              <MappingFragment StoreEntitySet="P1_Group">
+                <ScalarProperty Name="G_id" ColumnName="G_id" />
+                <ScalarProperty Name="Gname" ColumnName="Gname" />
+                <ScalarProperty Name="U_id" ColumnName="U_id" />
+                <ScalarProperty Name="Username" ColumnName="Username" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="P1_Record">
+            <EntityTypeMapping TypeName="ProjectModel.P1_Record">
+              <MappingFragment StoreEntitySet="P1_Record">
+                <ScalarProperty Name="r_id" ColumnName="r_id" />
+                <ScalarProperty Name="hour" ColumnName="hour" />
+                <ScalarProperty Name="minute" ColumnName="minute" />
+                <ScalarProperty Name="time" ColumnName="time" />
+                <ScalarProperty Name="event" ColumnName="event" />
+                <ScalarProperty Name="location" ColumnName="location" />
+                <ScalarProperty Name="latitude" ColumnName="latitude" />
+                <ScalarProperty Name="longitude" ColumnName="longitude" />
+                <ScalarProperty Name="weekly" ColumnName="weekly" />
+                <ScalarProperty Name="schedule" ColumnName="schedule" />
+                <ScalarProperty Name="user_id" ColumnName="user_id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="P1_Record_Correct">
+            <EntityTypeMapping TypeName="ProjectModel.P1_Record_Correct">
+              <MappingFragment StoreEntitySet="P1_Record_Correct">
+                <ScalarProperty Name="date" ColumnName="date" />
+                <ScalarProperty Name="rc_id" ColumnName="rc_id" />
+                <ScalarProperty Name="event" ColumnName="event" />
+                <ScalarProperty Name="correct" ColumnName="correct" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="P1_User_Account">
+            <EntityTypeMapping TypeName="ProjectModel.P1_User_Account">
+              <MappingFragment StoreEntitySet="P1_User_Account">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="email" ColumnName="email" />
+                <ScalarProperty Name="password" ColumnName="password" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="P1_User_Detail">
+            <EntityTypeMapping TypeName="ProjectModel.P1_User_Detail">
+              <MappingFragment StoreEntitySet="P1_User_Detail">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="Lname" ColumnName="Lname" />
+                <ScalarProperty Name="Fname" ColumnName="Fname" />
+                <ScalarProperty Name="sex" ColumnName="sex" />
+                <ScalarProperty Name="tel" ColumnName="tel" />
+                <ScalarProperty Name="address" ColumnName="address" />
+                <ScalarProperty Name="Ssn" ColumnName="Ssn" />
+                <ScalarProperty Name="bdate" ColumnName="bdate" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="P1_Overspend">
+            <EntityTypeMapping TypeName="ProjectModel.P1_Overspend">
+              <MappingFragment StoreEntitySet="P1_Overspend">
+                <ScalarProperty Name="Balance" ColumnName="Balance" />
+                <ScalarProperty Name="Month" ColumnName="Month" />
+                <ScalarProperty Name="User_id" ColumnName="User_id" />
+                <ScalarProperty Name="O_id" ColumnName="O_id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="無" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

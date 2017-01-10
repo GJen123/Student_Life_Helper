@@ -1,0 +1,542 @@
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\roslyn\csc.exe
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\roslyn\System.Collections.Immutable.dll
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\roslyn\vbc.exe
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\roslyn\VBCSCompiler.exe
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\roslyn\VBCSCompiler.exe.config
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\Project.dll.config
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\Project.dll
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\Project.pdb
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\Antlr3.Runtime.dll
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\EntityFramework.dll
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\EntityFramework.SqlServer.dll
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\Microsoft.Owin.dll
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\Microsoft.Owin.Security.dll
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\Microsoft.Owin.Security.Google.dll
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\Microsoft.Web.Infrastructure.dll
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\Newtonsoft.Json.dll
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\Owin.dll
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\System.Net.Http.Formatting.dll
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\System.Web.Helpers.dll
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\System.Web.Http.dll
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\System.Web.Http.Owin.dll
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\System.Web.Http.WebHost.dll
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\System.Web.Mvc.dll
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\System.Web.Optimization.dll
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\System.Web.Razor.dll
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\System.Web.WebPages.Deployment.dll
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\System.Web.WebPages.dll
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\System.Web.WebPages.Razor.dll
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\WebGrease.dll
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\Newtonsoft.Json.xml
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\System.Net.Http.Formatting.xml
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\System.Web.Helpers.xml
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\System.Web.Http.xml
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\System.Web.Http.WebHost.xml
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\System.Web.Mvc.xml
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\System.Web.Optimization.xml
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\System.Web.Razor.xml
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\System.Web.WebPages.xml
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\System.Web.WebPages.Deployment.xml
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\System.Web.WebPages.Razor.xml
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\Antlr3.Runtime.pdb
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\EntityFramework.xml
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\EntityFramework.SqlServer.xml
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\Microsoft.Owin.xml
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\Microsoft.Owin.Security.xml
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\Microsoft.Owin.Security.Google.xml
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\System.Web.Http.Owin.xml
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\obj\Debug\Project.csprojResolveAssemblyReference.cache
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\obj\Debug\Project.dll
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\obj\Debug\Project.pdb
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\Dapper.dll
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\Microsoft.AI.Web.dll
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\Microsoft.AI.WindowsServer.dll
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\Microsoft.ApplicationInsights.dll
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\Dapper.xml
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\Microsoft.AI.Web.xml
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\Microsoft.AI.WindowsServer.xml
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\Microsoft.ApplicationInsights.xml
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\zh-Hant\System.Net.Http.Formatting.resources.dll
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\zh-Hant\System.Web.Helpers.resources.dll
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\zh-Hant\System.Web.Http.resources.dll
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\zh-Hant\System.Web.Http.WebHost.resources.dll
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\zh-Hant\System.Web.Mvc.resources.dll
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\zh-Hant\System.Web.Optimization.resources.dll
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\zh-Hant\System.Web.Razor.resources.dll
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\zh-Hant\System.Web.WebPages.resources.dll
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\zh-Hant\System.Web.WebPages.Deployment.resources.dll
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\zh-Hant\System.Web.WebPages.Razor.resources.dll
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\zh-Hant\EntityFramework.resources.dll
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\zh-Hant\EntityFramework.SqlServer.resources.dll
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\zh-Hant\Microsoft.AspNet.Identity.Core.resources.dll
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\zh-Hant\Microsoft.AspNet.Identity.Owin.resources.dll
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\zh-Hant\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\zh-Hant\Microsoft.Owin.resources.dll
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\zh-Hant\Microsoft.Owin.Host.SystemWeb.resources.dll
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\zh-Hant\Microsoft.Owin.Security.resources.dll
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\zh-Hant\Microsoft.Owin.Security.Facebook.resources.dll
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\zh-Hant\Microsoft.Owin.Security.Google.resources.dll
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\zh-Hant\Microsoft.Owin.Security.Twitter.resources.dll
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\zh-Hant\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+c:\users\lewis\documents\visual studio 2015\Projects\Project\Project\bin\zh-Hant\System.Web.Http.Owin.resources.dll
+C:\Users\lewis\Desktop\Project\Project\bin\roslyn\csc.exe
+C:\Users\lewis\Desktop\Project\Project\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\lewis\Desktop\Project\Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\lewis\Desktop\Project\Project\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\lewis\Desktop\Project\Project\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\lewis\Desktop\Project\Project\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\lewis\Desktop\Project\Project\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\lewis\Desktop\Project\Project\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\lewis\Desktop\Project\Project\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\lewis\Desktop\Project\Project\bin\roslyn\vbc.exe
+C:\Users\lewis\Desktop\Project\Project\bin\roslyn\VBCSCompiler.exe
+C:\Users\lewis\Desktop\Project\Project\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\lewis\Desktop\Project\Project\bin\Project.dll.config
+C:\Users\lewis\Desktop\Project\Project\bin\Project.dll
+C:\Users\lewis\Desktop\Project\Project\bin\Project.pdb
+C:\Users\lewis\Desktop\Project\Project\bin\Antlr3.Runtime.dll
+C:\Users\lewis\Desktop\Project\Project\bin\Dapper.dll
+C:\Users\lewis\Desktop\Project\Project\bin\EntityFramework.dll
+C:\Users\lewis\Desktop\Project\Project\bin\EntityFramework.SqlServer.dll
+C:\Users\lewis\Desktop\Project\Project\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\lewis\Desktop\Project\Project\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\lewis\Desktop\Project\Project\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\lewis\Desktop\Project\Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\lewis\Desktop\Project\Project\bin\Microsoft.Owin.dll
+C:\Users\lewis\Desktop\Project\Project\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\lewis\Desktop\Project\Project\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\lewis\Desktop\Project\Project\bin\Microsoft.Owin.Security.dll
+C:\Users\lewis\Desktop\Project\Project\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\lewis\Desktop\Project\Project\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\lewis\Desktop\Project\Project\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\lewis\Desktop\Project\Project\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\lewis\Desktop\Project\Project\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\lewis\Desktop\Project\Project\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\lewis\Desktop\Project\Project\bin\Newtonsoft.Json.dll
+C:\Users\lewis\Desktop\Project\Project\bin\Owin.dll
+C:\Users\lewis\Desktop\Project\Project\bin\System.Net.Http.Formatting.dll
+C:\Users\lewis\Desktop\Project\Project\bin\System.Web.Helpers.dll
+C:\Users\lewis\Desktop\Project\Project\bin\System.Web.Http.dll
+C:\Users\lewis\Desktop\Project\Project\bin\System.Web.Http.Owin.dll
+C:\Users\lewis\Desktop\Project\Project\bin\System.Web.Http.WebHost.dll
+C:\Users\lewis\Desktop\Project\Project\bin\System.Web.Mvc.dll
+C:\Users\lewis\Desktop\Project\Project\bin\System.Web.Optimization.dll
+C:\Users\lewis\Desktop\Project\Project\bin\System.Web.Razor.dll
+C:\Users\lewis\Desktop\Project\Project\bin\System.Web.WebPages.Deployment.dll
+C:\Users\lewis\Desktop\Project\Project\bin\System.Web.WebPages.dll
+C:\Users\lewis\Desktop\Project\Project\bin\System.Web.WebPages.Razor.dll
+C:\Users\lewis\Desktop\Project\Project\bin\WebGrease.dll
+C:\Users\lewis\Desktop\Project\Project\bin\Dapper.xml
+C:\Users\lewis\Desktop\Project\Project\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\lewis\Desktop\Project\Project\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\lewis\Desktop\Project\Project\bin\Microsoft.AI.Web.xml
+C:\Users\lewis\Desktop\Project\Project\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\lewis\Desktop\Project\Project\bin\Microsoft.ApplicationInsights.xml
+C:\Users\lewis\Desktop\Project\Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\lewis\Desktop\Project\Project\bin\Newtonsoft.Json.xml
+C:\Users\lewis\Desktop\Project\Project\bin\System.Net.Http.Formatting.xml
+C:\Users\lewis\Desktop\Project\Project\bin\System.Web.Helpers.xml
+C:\Users\lewis\Desktop\Project\Project\bin\System.Web.Http.xml
+C:\Users\lewis\Desktop\Project\Project\bin\System.Web.Http.WebHost.xml
+C:\Users\lewis\Desktop\Project\Project\bin\System.Web.Mvc.xml
+C:\Users\lewis\Desktop\Project\Project\bin\System.Web.Optimization.xml
+C:\Users\lewis\Desktop\Project\Project\bin\System.Web.Razor.xml
+C:\Users\lewis\Desktop\Project\Project\bin\System.Web.WebPages.xml
+C:\Users\lewis\Desktop\Project\Project\bin\System.Web.WebPages.Deployment.xml
+C:\Users\lewis\Desktop\Project\Project\bin\System.Web.WebPages.Razor.xml
+C:\Users\lewis\Desktop\Project\Project\bin\Antlr3.Runtime.pdb
+C:\Users\lewis\Desktop\Project\Project\bin\EntityFramework.xml
+C:\Users\lewis\Desktop\Project\Project\bin\EntityFramework.SqlServer.xml
+C:\Users\lewis\Desktop\Project\Project\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\lewis\Desktop\Project\Project\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\lewis\Desktop\Project\Project\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\lewis\Desktop\Project\Project\bin\Microsoft.Owin.xml
+C:\Users\lewis\Desktop\Project\Project\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\lewis\Desktop\Project\Project\bin\Microsoft.Owin.Security.xml
+C:\Users\lewis\Desktop\Project\Project\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\lewis\Desktop\Project\Project\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\lewis\Desktop\Project\Project\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\lewis\Desktop\Project\Project\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\lewis\Desktop\Project\Project\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\lewis\Desktop\Project\Project\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\lewis\Desktop\Project\Project\bin\System.Web.Http.Owin.xml
+C:\Users\lewis\Desktop\Project\Project\bin\zh-Hant\System.Net.Http.Formatting.resources.dll
+C:\Users\lewis\Desktop\Project\Project\bin\zh-Hant\System.Web.Helpers.resources.dll
+C:\Users\lewis\Desktop\Project\Project\bin\zh-Hant\System.Web.Http.resources.dll
+C:\Users\lewis\Desktop\Project\Project\bin\zh-Hant\System.Web.Http.WebHost.resources.dll
+C:\Users\lewis\Desktop\Project\Project\bin\zh-Hant\System.Web.Mvc.resources.dll
+C:\Users\lewis\Desktop\Project\Project\bin\zh-Hant\System.Web.Optimization.resources.dll
+C:\Users\lewis\Desktop\Project\Project\bin\zh-Hant\System.Web.Razor.resources.dll
+C:\Users\lewis\Desktop\Project\Project\bin\zh-Hant\System.Web.WebPages.resources.dll
+C:\Users\lewis\Desktop\Project\Project\bin\zh-Hant\System.Web.WebPages.Deployment.resources.dll
+C:\Users\lewis\Desktop\Project\Project\bin\zh-Hant\System.Web.WebPages.Razor.resources.dll
+C:\Users\lewis\Desktop\Project\Project\bin\zh-Hant\EntityFramework.resources.dll
+C:\Users\lewis\Desktop\Project\Project\bin\zh-Hant\EntityFramework.SqlServer.resources.dll
+C:\Users\lewis\Desktop\Project\Project\bin\zh-Hant\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\lewis\Desktop\Project\Project\bin\zh-Hant\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\lewis\Desktop\Project\Project\bin\zh-Hant\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\lewis\Desktop\Project\Project\bin\zh-Hant\Microsoft.Owin.resources.dll
+C:\Users\lewis\Desktop\Project\Project\bin\zh-Hant\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Users\lewis\Desktop\Project\Project\bin\zh-Hant\Microsoft.Owin.Security.resources.dll
+C:\Users\lewis\Desktop\Project\Project\bin\zh-Hant\Microsoft.Owin.Security.Facebook.resources.dll
+C:\Users\lewis\Desktop\Project\Project\bin\zh-Hant\Microsoft.Owin.Security.Google.resources.dll
+C:\Users\lewis\Desktop\Project\Project\bin\zh-Hant\Microsoft.Owin.Security.Twitter.resources.dll
+C:\Users\lewis\Desktop\Project\Project\bin\zh-Hant\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\Users\lewis\Desktop\Project\Project\bin\zh-Hant\System.Web.Http.Owin.resources.dll
+C:\Users\lewis\Desktop\Project\Project\obj\Debug\Project.csprojResolveAssemblyReference.cache
+C:\Users\lewis\Desktop\Project\Project\obj\Debug\Project.dll
+C:\Users\lewis\Desktop\Project\Project\obj\Debug\Project.pdb
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\roslyn\csc.exe
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\roslyn\vbc.exe
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\roslyn\VBCSCompiler.exe
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\Project.dll.config
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\Project.dll
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\Project.pdb
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\Antlr3.Runtime.dll
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\Dapper.dll
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\EntityFramework.dll
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\EntityFramework.SqlServer.dll
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\Microsoft.Owin.dll
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\Microsoft.Owin.Security.dll
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\Newtonsoft.Json.dll
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\Owin.dll
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\System.Net.Http.Formatting.dll
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\System.Web.Helpers.dll
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\System.Web.Http.dll
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\System.Web.Http.Owin.dll
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\System.Web.Http.WebHost.dll
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\System.Web.Mvc.dll
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\System.Web.Optimization.dll
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\System.Web.Razor.dll
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\System.Web.WebPages.dll
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\System.Web.WebPages.Razor.dll
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\WebGrease.dll
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\Dapper.xml
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\Microsoft.AI.Web.xml
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\Newtonsoft.Json.xml
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\System.Net.Http.Formatting.xml
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\System.Web.Helpers.xml
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\System.Web.Http.xml
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\System.Web.Http.WebHost.xml
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\System.Web.Mvc.xml
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\System.Web.Optimization.xml
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\System.Web.Razor.xml
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\System.Web.WebPages.xml
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\System.Web.WebPages.Razor.xml
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\Antlr3.Runtime.pdb
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\EntityFramework.xml
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\EntityFramework.SqlServer.xml
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\Microsoft.Owin.xml
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\Microsoft.Owin.Security.xml
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\System.Web.Http.Owin.xml
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\zh-Hant\System.Net.Http.Formatting.resources.dll
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\zh-Hant\System.Web.Helpers.resources.dll
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\zh-Hant\System.Web.Http.resources.dll
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\zh-Hant\System.Web.Http.WebHost.resources.dll
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\zh-Hant\System.Web.Mvc.resources.dll
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\zh-Hant\System.Web.Optimization.resources.dll
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\zh-Hant\System.Web.Razor.resources.dll
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\zh-Hant\System.Web.WebPages.resources.dll
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\zh-Hant\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\zh-Hant\System.Web.WebPages.Razor.resources.dll
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\zh-Hant\EntityFramework.resources.dll
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\zh-Hant\EntityFramework.SqlServer.resources.dll
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\zh-Hant\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\zh-Hant\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\zh-Hant\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\zh-Hant\Microsoft.Owin.resources.dll
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\zh-Hant\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\zh-Hant\Microsoft.Owin.Security.resources.dll
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\zh-Hant\Microsoft.Owin.Security.Facebook.resources.dll
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\zh-Hant\Microsoft.Owin.Security.Google.resources.dll
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\zh-Hant\Microsoft.Owin.Security.Twitter.resources.dll
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\zh-Hant\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\bin\zh-Hant\System.Web.Http.Owin.resources.dll
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\obj\Debug\Project.csprojResolveAssemblyReference.cache
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\obj\Debug\Project.dll
+C:\Users\Eason-LabPC\Desktop\Project1104\Project\Project\obj\Debug\Project.pdb
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\roslyn\csc.exe
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\roslyn\vbc.exe
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\roslyn\VBCSCompiler.exe
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\Project.dll.config
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\Project.dll
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\Project.pdb
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\Antlr3.Runtime.dll
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\Dapper.dll
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\EntityFramework.dll
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\EntityFramework.SqlServer.dll
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\Microsoft.Owin.dll
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\Microsoft.Owin.Security.dll
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\Newtonsoft.Json.dll
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\Owin.dll
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\System.Net.Http.Formatting.dll
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\System.Web.Helpers.dll
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\System.Web.Http.dll
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\System.Web.Http.Owin.dll
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\System.Web.Http.WebHost.dll
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\System.Web.Mvc.dll
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\System.Web.Optimization.dll
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\System.Web.Razor.dll
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\System.Web.WebPages.Deployment.dll
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\System.Web.WebPages.dll
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\System.Web.WebPages.Razor.dll
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\WebGrease.dll
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\Dapper.xml
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\Microsoft.AI.Web.xml
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\Microsoft.ApplicationInsights.xml
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\Newtonsoft.Json.xml
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\System.Net.Http.Formatting.xml
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\System.Web.Helpers.xml
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\System.Web.Http.xml
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\System.Web.Http.WebHost.xml
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\System.Web.Mvc.xml
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\System.Web.Optimization.xml
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\System.Web.Razor.xml
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\System.Web.WebPages.xml
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\System.Web.WebPages.Deployment.xml
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\System.Web.WebPages.Razor.xml
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\Antlr3.Runtime.pdb
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\EntityFramework.xml
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\EntityFramework.SqlServer.xml
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\Microsoft.Owin.xml
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\Microsoft.Owin.Security.xml
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\System.Web.Http.Owin.xml
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\zh-Hant\System.Net.Http.Formatting.resources.dll
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\zh-Hant\System.Web.Helpers.resources.dll
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\zh-Hant\System.Web.Http.resources.dll
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\zh-Hant\System.Web.Http.WebHost.resources.dll
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\zh-Hant\System.Web.Mvc.resources.dll
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\zh-Hant\System.Web.Optimization.resources.dll
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\zh-Hant\System.Web.Razor.resources.dll
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\zh-Hant\System.Web.WebPages.resources.dll
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\zh-Hant\System.Web.WebPages.Deployment.resources.dll
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\zh-Hant\System.Web.WebPages.Razor.resources.dll
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\zh-Hant\EntityFramework.resources.dll
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\zh-Hant\EntityFramework.SqlServer.resources.dll
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\zh-Hant\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\zh-Hant\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\zh-Hant\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\zh-Hant\Microsoft.Owin.resources.dll
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\zh-Hant\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\zh-Hant\Microsoft.Owin.Security.resources.dll
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\zh-Hant\Microsoft.Owin.Security.Facebook.resources.dll
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\zh-Hant\Microsoft.Owin.Security.Google.resources.dll
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\zh-Hant\Microsoft.Owin.Security.Twitter.resources.dll
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\zh-Hant\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\Users\lewis\Desktop\Project1104\Project\Project\bin\zh-Hant\System.Web.Http.Owin.resources.dll
+C:\Users\lewis\Desktop\Project1104\Project\Project\obj\Debug\Project.csprojResolveAssemblyReference.cache
+C:\Users\lewis\Desktop\Project1104\Project\Project\obj\Debug\Project.dll
+C:\Users\lewis\Desktop\Project1104\Project\Project\obj\Debug\Project.pdb
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\roslyn\csc.exe
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\roslyn\vbc.exe
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\roslyn\VBCSCompiler.exe
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\Project.dll.config
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\Project.dll
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\Project.pdb
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\Antlr3.Runtime.dll
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\Dapper.dll
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\EntityFramework.dll
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\EntityFramework.SqlServer.dll
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\Microsoft.Owin.dll
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\Microsoft.Owin.Security.dll
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\Newtonsoft.Json.dll
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\Owin.dll
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\System.Net.Http.Formatting.dll
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\System.Web.Helpers.dll
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\System.Web.Http.dll
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\System.Web.Http.Owin.dll
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\System.Web.Http.WebHost.dll
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\System.Web.Mvc.dll
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\System.Web.Optimization.dll
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\System.Web.Razor.dll
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\System.Web.WebPages.Deployment.dll
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\System.Web.WebPages.dll
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\System.Web.WebPages.Razor.dll
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\WebGrease.dll
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\Dapper.xml
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\Microsoft.AI.Web.xml
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\Microsoft.ApplicationInsights.xml
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\Newtonsoft.Json.xml
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\System.Net.Http.Formatting.xml
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\System.Web.Helpers.xml
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\System.Web.Http.xml
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\System.Web.Http.WebHost.xml
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\System.Web.Mvc.xml
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\System.Web.Optimization.xml
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\System.Web.Razor.xml
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\System.Web.WebPages.xml
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\System.Web.WebPages.Deployment.xml
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\System.Web.WebPages.Razor.xml
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\Antlr3.Runtime.pdb
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\EntityFramework.xml
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\EntityFramework.SqlServer.xml
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\Microsoft.Owin.xml
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\Microsoft.Owin.Security.xml
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\System.Web.Http.Owin.xml
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\zh-Hant\System.Net.Http.Formatting.resources.dll
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\zh-Hant\System.Web.Helpers.resources.dll
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\zh-Hant\System.Web.Http.resources.dll
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\zh-Hant\System.Web.Http.WebHost.resources.dll
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\zh-Hant\System.Web.Mvc.resources.dll
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\zh-Hant\System.Web.Optimization.resources.dll
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\zh-Hant\System.Web.Razor.resources.dll
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\zh-Hant\System.Web.WebPages.resources.dll
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\zh-Hant\System.Web.WebPages.Deployment.resources.dll
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\zh-Hant\System.Web.WebPages.Razor.resources.dll
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\zh-Hant\EntityFramework.resources.dll
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\zh-Hant\EntityFramework.SqlServer.resources.dll
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\zh-Hant\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\zh-Hant\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\zh-Hant\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\zh-Hant\Microsoft.Owin.resources.dll
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\zh-Hant\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\zh-Hant\Microsoft.Owin.Security.resources.dll
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\zh-Hant\Microsoft.Owin.Security.Facebook.resources.dll
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\zh-Hant\Microsoft.Owin.Security.Google.resources.dll
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\zh-Hant\Microsoft.Owin.Security.Twitter.resources.dll
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\zh-Hant\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\Users\lewis\Desktop\Project1129\Project\Project\bin\zh-Hant\System.Web.Http.Owin.resources.dll
+C:\Users\lewis\Desktop\Project1129\Project\Project\obj\Debug\Project.csprojResolveAssemblyReference.cache
+C:\Users\lewis\Desktop\Project1129\Project\Project\obj\Debug\Project.dll
+C:\Users\lewis\Desktop\Project1129\Project\Project\obj\Debug\Project.pdb

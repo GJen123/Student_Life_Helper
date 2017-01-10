@@ -1,0 +1,122 @@
+﻿@model List<Project.Models.RecordViewModel >
+@using Newtonsoft.Json
+@Scripts.Render("~/Scripts/jquery-1.10.2.js")
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="container">
+    <table class="table table-hover table-striped">
+        <tr>
+            <th>時間</th>
+            <th>事件</th>
+            <th>狀態</th>
+            
+        </tr>
+
+        @foreach (var record in Model)
+        {
+            <tr>
+                <td>@record.date</td>
+                <td>@record.Event</td>
+                <td>@record.state</td>
+               
+            </tr>
+        }
+    </table>
+    <br/>
+    <table id="StateTable" class="table table-hover table-striped">
+        <tr id="StateTitle">
+            <th>月</th>
+            <th>準時</th>
+            <th>遲到</th>
+            <th>未到</th>
+        </tr>
+        
+    </table>
+    <p><a class="btn btn-info btn-lg mybtn2" href="~/manage/Chart">看圖表 &raquo;</a></p>
+</div>
+
+<script language="javascript">
+    var Test = @Html.Raw(Json.Encode(Model));
+    var inTimeCount = 0,lateCount =0 ,noArrivalCount =0 ;
+    var tempDate,lastDate ;
+
+    for(var i =0 ;i<Test.length;i++)
+    {
+        var RowDate = new Date(parseInt(Test[i].date.substr(6)))  ;
+        if((RowDate.getMonth()+1).toString().length < 2)
+        {
+            var curr_month = "0" + (RowDate.getMonth() + 1).toString(); //Months are zero based
+        }
+        else
+            var curr_month = (RowDate.getMonth() + 1).toString(); //Months are zero based
+        if(RowDate.getDate().toString().length < 2)
+        {
+            var curr_date = "0" + RowDate.getDate().toString() ; //Months are zero based
+        }
+        else
+            var curr_date = RowDate.getDate().toString(); //Months are zero based
+        var curr_year = RowDate.getFullYear().toString();
+        var this_Date = curr_year + curr_month + curr_date ;
+        var tempDate = (parseInt(curr_year+curr_month)) ;
+        if(!lastDate)
+            lastDate = tempDate ;
+
+        if(tempDate==lastDate)
+        {
+            switch(Test[i].state)
+            {
+                case "準時到":
+                    inTimeCount++ ;
+                    
+                    break ;
+                case "延後到":
+                    lateCount++ ;
+                   
+                    break ;
+                case "無法參加":
+                    noArrivalCount++ ;
+                    
+                    break ;
+                default:
+                    break ;
+            }
+        }
+        else
+        {
+            $('#StateTitle').after("<tr><td>"+lastDate+"</td><td>"+inTimeCount+"</td><td>"+lateCount+"</td><td>"+noArrivalCount+"</td></tr>") ;
+           
+            inTimeCount = 0 ;
+            lateCount = 0 ;
+            noArrivalCount = 0 ;
+            switch(Test[i].state)
+            {
+                case "準時到":
+                    inTimeCount++ ;
+                    break ;
+                case "延後到":
+                    lateCount++ ;
+                    break ;
+                case "無法參加":
+                    noArrivalCount++ ;
+                    break ;
+                default:
+                    break ;
+            }
+        }
+        lastDate = tempDate ;
+    }
+    $('#StateTitle').after("<tr><td>"+lastDate+"</td><td>"+inTimeCount+"</td><td>"+lateCount+"</td><td>"+noArrivalCount+"</td></tr>") ;
+
+
+
+        //alert(this_Month) ;
+
+
+
+
+</script>
+

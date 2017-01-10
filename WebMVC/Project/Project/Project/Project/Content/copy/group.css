@@ -1,0 +1,179 @@
+.group {
+	background: #fff;
+	width: 100%;
+}
+
+.group_content {
+	text-align: center;
+}
+
+.group_content h1 {
+   	font-weight: 900;
+   	color: #595959;
+    font-size: 2.3em;
+    text-transform: uppercase;
+	margin-bottom: 10px;
+}
+
+.group_content span {
+	width: 18%;
+    margin: 0 auto;
+    background: #D8D8D8;
+    display: block;
+    height: 7px;
+}
+
+.group_input {
+	width: 100%;
+	margin: 30px 0px 30px 250px;
+}
+
+.group_table{
+	width:50%;
+	padding-left:10px;
+	border-spacing: 10px 15px; 
+}
+
+.group_td_01{
+	width:50%;
+	text-align:right;
+	padding:5px;
+}
+
+.group_td_02{
+	width:50%;
+	text-align:center;
+	padding:5px;
+}
+
+.group_td_02 p{
+	font-weight: 800;
+   	color: #595959;
+    font-size: 1.8em;
+    text-transform: uppercase;
+	margin-bottom: 5px;
+}
+
+.group_td_02 h1{
+	font-weight: 600;
+   	color: #000;
+    font-size: 1.5em;
+    text-transform: uppercase;
+	margin-bottom: 50px;
+}
+
+
+.group_td_02 span{
+	width: 18%;
+    margin: 0 auto;
+    background: #D8D8D8;
+    display: block;
+    height: 5px;
+}
+
+.group_image{
+	border-radius: 360px;
+	width:150px;
+	height:150px;
+}
+
+.group_table_td{
+	text-align:left;
+	background: #56BBB0;
+	padding:10px;
+	border: 1px outset #D8D8D8;
+	
+}
+
+.group_td_02_table{
+	width:50%;
+	border-spacing: 0px 10px;
+}
+
+@media(max-width:320px) {
+	
+	.group_table{
+		width:100%;
+	}
+	
+	.group_input {
+		width: 100%;
+		margin: 15px 0px 15px 0px;
+	}
+	
+	.group_image{
+		width:100px;
+		height:100px;
+	}
+	
+	.install_image{
+		width:105px;
+		height:186px;
+	}
+	
+	.group_td_02_table{
+		width:100%;
+	}
+	
+	.group_td_02 p{
+		font-weight: 800;
+    	font-size: 1.2em;
+    }
+
+	.group_td_02 h1{
+		font-weight: 600;
+   		font-size: 0.9em;
+    }
+
+
+	.group_td_02 span{
+		width: 18%;
+    	margin: 0 auto;
+    	height: 3px;
+	}
+	
+	
+}	
+
+@media(max-width:640px) {
+	.group_table{
+		width:100%;
+	}
+	
+	.group_input {
+		width: 100%;
+		margin: 15px 15px 15px 0px;
+	}
+	
+	.group_image{
+		width:100px;
+		height:100px;
+	}
+	
+	.install_image{
+		width:105px;
+		height:186px;
+	}
+	
+	
+	.group_td_02_table{
+		width:100%;
+	}
+	
+	.group_td_02 p{
+		font-weight: 800;
+    	font-size: 1.2em;
+    }
+
+	.group_td_02 h1{
+		font-weight: 600;
+   		font-size: 0.9em;
+    }
+
+
+	.group_td_02 span{
+		width: 18%;
+    	margin: 0 auto;
+    	height: 3px;
+	}
+}

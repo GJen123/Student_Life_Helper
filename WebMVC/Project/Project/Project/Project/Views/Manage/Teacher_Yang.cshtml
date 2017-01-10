@@ -1,0 +1,29 @@
+﻿
+@model List<Project.Models.EventViewModel>
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="container">
+    <table class="table table-hover table-striped">
+        <tr>
+            <th>群組名稱</th>
+            <th>使用者名字</th>
+            <th>狀態</th>
+           
+        </tr>
+
+        @foreach (var record in Model)
+        {
+            <tr>
+                <td>@record.Gname</td>
+                <td>@record.Username</td>
+                <td>@record.Status</td>
+               
+
+            </tr>
+        }
+    </table>
+</div>

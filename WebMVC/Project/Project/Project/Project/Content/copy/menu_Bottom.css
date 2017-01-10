@@ -1,0 +1,183 @@
+/* ----------------footer--------------- */
+.footer {
+	background: #fff;
+	width: 100%;
+}
+
+.footer-content {
+	text-align: center;
+}
+
+.footer-content h1 {
+   	font-weight: 900;
+   	color: #595959;
+    font-size: 2.3em;
+    text-transform: uppercase;
+	margin-bottom: 10px;
+}
+
+.footer-content span {
+	width: 18%;
+    margin: 0 auto;
+    background: #D8D8D8;
+    display: block;
+    height: 7px;
+}
+
+.footer-input {
+	width: 100%;
+	margin: 30px 0 30px 0;
+}
+
+.footer-input input {
+	width: 350px;
+	height: 35px;
+	margin: 0 0 30px 30px;
+}
+
+.footer-input textarea {
+	width: 770px;
+	height: 300px;
+	margin: 0 0 15px 30px;
+}
+
+input[type="submit"] {
+	color: #c9c9cb;
+	font-family: 'Lato', sans-serif;
+  	background-color:#fff;
+    height: 70px;
+    font-size: 18px;
+    font-weight: 700;
+    border: 3px solid rgba(0, 0, 0, 0.07);
+}
+
+input[type="text"], textarea {
+	border: 3px solid rgba(0, 0, 0, 0.07);
+	font-family: 'Lato', sans-serif;
+	padding: 14px;
+	font-size: 18px;
+	color: #c9c9cb;
+	font-weight: 700;
+}
+
+input[type="text"]:hover, textarea:hover {
+	border: 3px solid #595959;	
+}
+
+input[type="submit"]:hover {
+	border: 3px solid #56BBB0;
+	color: #56BBB0;	
+}
+
+input, textarea:focus { 
+   outline:none
+}
+
+/* ----------------sub-header--------------- */
+.end-footer {
+	background: #56BBB0;
+	padding: 10px;
+}
+
+.end-footer h1{
+	text-align: center;
+	font-size: 22px;
+	color: #ececec;
+}
+
+@media(max-width:768px) {
+	.header-logo-content {
+		float: left;
+		width: 53%;
+		padding: 6px 0 7px 0;
+	}
+}
+
+@media(max-width:640px) {
+	
+	.header-logo-2 {
+		margin-left: 1em;
+	}
+	
+	.end-footer h1{
+		font-size:12px;
+	}
+	
+	.footer-input input {
+		width: 300px;
+		margin-left: 15px;
+	}
+
+	.footer-input textarea {
+		width: 300px;
+		height: 220px;
+		margin-left: 15px;
+	}
+	
+}
+
+
+@media(max-width:480px) {
+	.header-logo {
+		width: 90%;
+	}
+	.header-top-list ul li a {
+		font-size: 0.8em;
+	}
+	
+	
+	
+}
+
+@media(max-width:320px) {
+	.header-logo-content {
+		width: 100%;
+	}
+	.header-top-list ul li {
+		display: inline-block;
+		margin: 0 8px 0 0;
+	}
+	.header-top-index {
+		margin: 6px 0px 0px 15px;
+		width: 100%;
+	}
+	
+	.footer-input input {
+		width: 220px;
+		margin-left: 15px;
+	}
+
+	.footer-input textarea {
+		width: 220px;
+		height: 220px;
+		margin-left: 15px;
+	}
+	
+	.footer-content h1 {
+    	font-size: 1.8em;
+	}
+	
+	.footer-content span {
+		width: 40%;
+	}
+	
+}	
+
+@media (min-width: 768px) {
+  	.container {
+    	width: 750px;
+  	}
+	
+}
+
+
+@media (min-width: 1200px) {
+  	.container {
+    	width: 1170px;
+  	}
+	
+	
+}
+
+
+

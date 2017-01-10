@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ProjectModelStoreContainer" CdmEntityContainer="ProjectEntities">
+    <EntitySetMapping Name="P1_Group">
+      <EntityTypeMapping TypeName="ProjectModel.P1_Group">
+        <MappingFragment StoreEntitySet="P1_Group">
+          <ScalarProperty Name="G_id" ColumnName="G_id" />
+          <ScalarProperty Name="Gname" ColumnName="Gname" />
+          <ScalarProperty Name="U_id" ColumnName="U_id" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P1_Record">
+      <EntityTypeMapping TypeName="ProjectModel.P1_Record">
+        <MappingFragment StoreEntitySet="P1_Record">
+          <ScalarProperty Name="r_id" ColumnName="r_id" />
+          <ScalarProperty Name="hour" ColumnName="hour" />
+          <ScalarProperty Name="minute" ColumnName="minute" />
+          <ScalarProperty Name="time" ColumnName="time" />
+          <ScalarProperty Name="event" ColumnName="event" />
+          <ScalarProperty Name="location" ColumnName="location" />
+          <ScalarProperty Name="latitude" ColumnName="latitude" />
+          <ScalarProperty Name="longitude" ColumnName="longitude" />
+          <ScalarProperty Name="weekly" ColumnName="weekly" />
+          <ScalarProperty Name="schedule" ColumnName="schedule" />
+          <ScalarProperty Name="user_id" ColumnName="user_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P1_Record_Correct">
+      <EntityTypeMapping TypeName="ProjectModel.P1_Record_Correct">
+        <MappingFragment StoreEntitySet="P1_Record_Correct">
+          <ScalarProperty Name="date" ColumnName="date" />
+          <ScalarProperty Name="rc_id" ColumnName="rc_id" />
+          <ScalarProperty Name="event" ColumnName="event" />
+          <ScalarProperty Name="correct" ColumnName="correct" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P1_User_Account">
+      <EntityTypeMapping TypeName="ProjectModel.P1_User_Account">
+        <MappingFragment StoreEntitySet="P1_User_Account">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="password" ColumnName="password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P1_User_Detail">
+      <EntityTypeMapping TypeName="ProjectModel.P1_User_Detail">
+        <MappingFragment StoreEntitySet="P1_User_Detail">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="Lname" ColumnName="Lname" />
+          <ScalarProperty Name="Fname" ColumnName="Fname" />
+          <ScalarProperty Name="sex" ColumnName="sex" />
+          <ScalarProperty Name="tel" ColumnName="tel" />
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="Ssn" ColumnName="Ssn" />
+          <ScalarProperty Name="bdate" ColumnName="bdate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P1_Overspend">
+      <EntityTypeMapping TypeName="ProjectModel.P1_Overspend">
+        <MappingFragment StoreEntitySet="P1_Overspend">
+          <ScalarProperty Name="Balance" ColumnName="Balance" />
+          <ScalarProperty Name="Month" ColumnName="Month" />
+          <ScalarProperty Name="User_id" ColumnName="User_id" />
+          <ScalarProperty Name="O_id" ColumnName="O_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
